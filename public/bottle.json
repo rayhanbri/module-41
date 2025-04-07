@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "brand": "AquaPure",
+    "capacity": "500ml",
+    "material": "Plastic",
+    "price": 2.5,
+    "image": "https://example.com/aquapure.png"
+  },
+  {
+    "id": 2,
+    "brand": "HydroFlow",
+    "capacity": "750ml",
+    "material": "Metal",
+    "price": 15,
+    "image": "https://example.com/hydroflow.png"
+  },
+  {
+    "id": 3,
+    "brand": "EcoSip",
+    "capacity": "1L",
+    "material": "Glass",
+    "price": 10,
+    "image": "https://example.com/ecosip.png"
+  },
+  {
+    "id": 4,
+    "brand": "QuickQuench",
+    "capacity": "350ml",
+    "material": "Plastic",
+    "price": 1.5,
+    "image": "https://example.com/quickquench.png"
+  },
+  {
+    "id": 5,
+    "brand": "ChillWave",
+    "capacity": "1.5L",
+    "material": "Stainless Steel",
+    "price": 20,
+    "image": "https://example.com/chillwave.png"
+  }
+]
