@@ -10,13 +10,16 @@ const Bottles = ({bottlesPromise}) => {
      const bottles = use(bottlesPromise);
 
      const  handleAddtoCart = (bottle) =>{
-      console.log('clicked',bottle.name)
+      // console.log('clicked',bottle)
+      const newCart = [...cart,bottle]
+      setCart(newCart)
      }
 
     //  console.log(bottles)
   return (
     <div >
       <h3>Total Bottle:{bottles.length}</h3>
+      <h2>Added To Cart:{cart.length}</h2>
       <div className='bottles-container'>
       {
         bottles.map(bottle => <Bottle key={bottle.id} handleAddtoCart={handleAddtoCart} bottle={bottle}></Bottle>)
