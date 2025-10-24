@@ -1,0 +1,40 @@
+what is es6 module ? 
+ES6 Modules (introduced in ECMAScript 2015) allow you to split your JavaScript code into separate files, so you can keep your code organized, reusable, and maintainable.
+
+Instead of putting all code in one big file, you can export something from one file and import it into another.
+
+A module is simply a JavaScript file.
+
+(one default export per file )
+
+🧩 Why ES6 Modules are Useful
+
+✅ Avoid global variable pollution
+✅ Easier to maintain large projects
+✅ Clear dependency structure
+✅ Enables tree-shaking (removes unused code during build)
+
+Relative path /// 
+🧩 What is a Relative Path?
+
+A relative path tells JavaScript where to find another file, relative to the current file’s location.
+
+./file.js  Same directory    import x from './file.js'
+
+../file.js  Parent directory   import x from '../file.js'
+
+./folder/file.js  Inside subfolder   import x from './folder/file.js'
+
+../../file.js  Two levels up  import x from '../../file.js'
+
+
+//how to follow module 
+
+1.app.jsx
+2.just showing  bootles in bottle
+3.added image  and everything in bottle page and button 
+4.getting bottle which we clicked
+5.local storage.js
+6.save on local storage from bottles , useEffect on bottles , 
+7.create a cart compo,add delete button ,filter deleted item
+8.remove card from local storage function,then add it on bottles . 

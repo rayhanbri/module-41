@@ -1,4 +1,4 @@
-
+// https://web.programming-hero.com/web-11/video/web-11-41-6-optional-intro-to-local-storage-to-store-data-just-one-item
 
 const  getCartFromLocalStorage=()=>{
   const storedCartString = localStorage.getItem('cart');
